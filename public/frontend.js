@@ -4,7 +4,7 @@ const num = document.querySelector('#num')
 const getBtn = document.querySelector('#getBtn')
 getBtn.addEventListener('click', getInfo)
 
-const url = '/random'
+const url = '/'
 async function getInfo(e){
     e.preventDefault()
     const res = await fetch(url,{method: 'GET'})
